@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Todo List</title>
+</head>
+<body>
+    <section class="introduction">
+        <h1 id="title">Todo List App</h1>
+
+        <hr id="first_line_break">
+
+        <p>Please feel free to use this web app to create and modify your todo list!</p>
+    </section>
+
+
+    <section class="getting_input">
+
+        <div id="text_input_div">
+            <input type="text" id="text_field" placeholder="Enter todo here ...">
+        </div>
+
+        <div id="three_buttons">
+
+            <button class="btn" id="submit" onclick="addTodo()">
+                Submit
+            </button>
+            
+            <button class="btn" id="delete_last" onclick="removeLast()"">
+                Delete Last Todo
+            </button>
+    
+            <button class="btn" id="delete_all" onclick="removeAll()">
+                Delete All Todos
+            </button>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Todos:</h2>
+
+        <div id="main_list">
+
+            <ol id="main_list">
+
+                <!--li elements go here!-->
+
+            </ol>
+
+
+        </div>
+
+
+    </section>
+
+
+</body>
+</html>

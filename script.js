@@ -13,6 +13,7 @@ function addTodo(){
         var li = document.createElement("li");
 
         li.appendChild(document.createTextNode(s));
+        
 
         ol.appendChild(li);
     }
